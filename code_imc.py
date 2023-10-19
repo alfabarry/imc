@@ -17,7 +17,7 @@ button = st.button(u"Calculer votre IMC")
 
 if button :
     if (nom !="" and age != 0 and poids !="" and taille !=0) :
-        imc = poids/(taille**2)
+        imc = round(poids/(taille**2),2)
         if imc < 16:
             st.write("L'IMC de {} est :".format(nom))
             st.success(imc)
