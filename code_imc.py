@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title(u"Programme qui calcule l'indice de la masse corporelle (IMC)")
+st.title(u"Calcul de l'indice de la masse corporelle (IMC)")
 
 st.write("===============================================")
 st.header(u"Saisi des informations pour le calcul de l'IMC")
