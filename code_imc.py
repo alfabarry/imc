@@ -1,9 +1,9 @@
 import streamlit as st
 
-st.title(u"Calcul de l'indice de la masse corporelle (IMC)")
+st.title(u"Calcul de l'indice de la masse corporelle (IMC) ")
 
 st.write("===============================================")
-st.header(u"Saisi des informations pour le calcul de l'IMC")
+st.header(u"Saisie des informations pour le calcul de l'IMC")
 st.write("------------------------------------------------")
 nom = st.text_input(u"Saisir votre nom :")
 age = st.number_input(u"Saisir votre âge")
